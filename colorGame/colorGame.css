@@ -1,0 +1,48 @@
+button{
+	padding: 5rem;
+	border-radius: 1rem;
+	border:none;
+	margin:0.7rem;
+	transition: background 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+button:focus{
+	outline: none;
+}
+
+.jumbotron{
+	color: white;
+}
+
+.navbar{
+	background-color: white;
+	letter-spacing: 1px;
+}
+
+#tryAgain{
+	color: black;
+}
+
+body{
+	background-color: #232323;
+}
+
+.btnselected{
+	background-color: steelblue;
+	color: white;
+}
+
+a{
+	transition: all 300ms;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	line-height: 1.1;
+	color: steelblue;
+}
+
+a:hover{
+	color:white;
+	background-color: steelblue;
+}
